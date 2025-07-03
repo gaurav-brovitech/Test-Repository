@@ -1,7 +1,6 @@
 "use client"
 
 import { decrement, increment } from '@/lib/features/counterSlice'
-import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
 const Counter = () => {
